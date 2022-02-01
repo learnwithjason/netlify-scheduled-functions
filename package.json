@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@netlify/functions": "^0.11.0"
+    "@netlify/functions": "^0.11.0",
+    "@notionhq/client": "^0.4.13",
+    "node-fetch": "^3.2.0"
   }
 }

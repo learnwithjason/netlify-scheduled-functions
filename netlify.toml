@@ -1,2 +1,2 @@
-[functions.hello-world]
-  schedule = "@daily"
+[functions.notion-table]
+schedule = "* * * * *"
