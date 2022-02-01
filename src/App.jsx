@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     async function loadNotionData() {
       const loadedItems = await fetch(
-        'http://localhost:8888/.netlify/functions/get-notion-data',
+        'https://netlify-scheduled-functions.netlify.app/.netlify/functions/get-notion-data',
       ).then((res) => res.json());
 
       setItems(loadedItems);
