@@ -1,2 +1,5 @@
 [functions.notion-table]
 schedule = "@daily"
+
+[functions.rebuild]
+schedule = "* * * * *"
