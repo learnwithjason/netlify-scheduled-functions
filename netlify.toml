@@ -1,0 +1,2 @@
+[functions.hello-world]
+  schedule = "@daily"

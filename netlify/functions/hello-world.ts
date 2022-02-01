@@ -1,6 +1,10 @@
-export const handler = async () => {
+import { schedule } from '@netlify/functions';
+
+const handlerFn = async () => {
   return {
     statusCode: 200,
-    body: 'ok',
+    body: 'waddup chat?',
   };
 };
+
+export const handler = schedule('* * * * *', handlerFn);
