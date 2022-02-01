@@ -7,4 +7,4 @@ const handlerFn = async () => {
   };
 };
 
-export const handler = schedule('* * * * *', handlerFn);
+export const handler = schedule('* 12 * * *', handlerFn);
